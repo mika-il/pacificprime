@@ -15,7 +15,7 @@ $(document).ready( function() {
     // process the form
     $.ajax({
       type: 'POST',
-      url: 'http://www.flybudgetlines.com/php/process.php',
+      url: 'process.php',
       data: formData,
       contentType: false,
       cache: false,
